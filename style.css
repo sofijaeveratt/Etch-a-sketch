@@ -1,0 +1,37 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 3cm;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+
+}
+#container {
+  display: inline-grid;
+  grid-gap: 0.5px;
+  grid-template-rows: repeat(var(--grid-rows), 2fr);
+  grid-template-columns: repeat(var(--grid-cols), 2fr);
+  border: 3px solid black;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 2cm;
+}
+#chooseSizeButton {
+  background-color: rgb(87, 87, 233);
+  font-size: large;
+  font-weight: bold;
+  height: 1cm;
+  width: auto;
+}
+.item {
+  object-fit: fill;
+  padding: 1em;
+  margin: 1px;
+  border: 1px solid #ddd;
+}
+
